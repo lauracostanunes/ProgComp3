@@ -17,3 +17,8 @@ for (let i = 0; i < 3; i++) {
     };
     biblioteca.push(livro);
 }
+for (let i = 0; i < biblioteca.length; i++) {
+    if (biblioteca[i].paginas > 300) {
+        console.log(`${biblioteca[i].titulo} tem mais de 300 páginas.`);
+    }
+}
