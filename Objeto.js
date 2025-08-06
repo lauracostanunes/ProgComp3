@@ -47,3 +47,11 @@ console.log(`Página de todos os livros: `)
 for(let i=0; i<biblioteca.length; i++) {
     console.log(`${biblioteca[i].paginas}`)
 }
+for (let i = 0; i < biblioteca.length; i++) {
+    console.log(`Livro ${i + 1}: ${biblioteca[i].titulo}`);
+}
+for (let i = 0; i < biblioteca.length; i++) {
+    if (biblioteca[i].paginas > 250) {
+        console.log(`${biblioteca[i].titulo} tem mais de 250 páginas.`);
+    }
+}
