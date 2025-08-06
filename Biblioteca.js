@@ -1,5 +1,5 @@
 let biblioteca = [];
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 5; i++) {
     let titulo = prompt(`Informe o título do livro ${i + 1}:`);
     let autor = prompt(`Informe o autor do livro ${i + 1}:`);
     let editora = prompt(`Informe a editora do livro ${i + 1}:`);
