@@ -24,7 +24,7 @@ for (let j = 0; j < dias; j++) {
     console.log(`Total vendido no dia ${j + 1}: R$ ${somaDia.toFixed(2)}`);
 }
 let maiorValor = matriz[0][0];
-let posicaoMaior = { vendedor: 0, dia: 0 };
+let posicaoMaior = {vendedor: 0, dia: 0};
 
 for (let i = 0; i < vendedores; i++) {
     for (let j = 0; j < dias; j++) {
